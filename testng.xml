@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="DataDrivenFramework">
+  <test thread-count="1" name="POMwithPageFactory">
+    <classes>
+      <class name="com.seleniu.fb.test.testcases.LoginTest"/>
+       
+   
+    </classes>
+  </test> <!-- HardAssertTests -->
+</suite> <!-- AssertPractice -->

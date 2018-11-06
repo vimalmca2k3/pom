@@ -15,7 +15,7 @@ public class ExtentManager {
 		{
 			Date d = new Date();
 			String reportName = d.toString().replace(":","_").replace(" ","_");
-			extent = new ExtentReports(System.getProperty("user.dir")+"/POMReports/POMReport/"+reportName+".html",false);
+			extent = new ExtentReports(System.getProperty("user.dir")+"/POMReports/"+reportName+".html",false);
 			extent.addSystemInfo("Host Name", "First Extent Report");
 			extent.addSystemInfo("ENV DETAILS","Just To Understand ENV");
 			

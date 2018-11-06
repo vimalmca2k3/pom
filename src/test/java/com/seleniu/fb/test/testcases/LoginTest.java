@@ -1,5 +1,6 @@
 package com.seleniu.fb.test.testcases;
 
+import org.apache.tools.ant.taskdefs.Taskdef;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterTest;
@@ -26,13 +27,32 @@ public class LoginTest extends BaseTest {
 	init("Mozilla");
 	test.log(LogStatus.INFO, "Opening Browser");
 	LaunchPage launchPage = new LaunchPage(driver,test);
+	//launchPage.takeScreenshot();
 	test.log(LogStatus.INFO, "Launching Page");
 	PageFactory.initElements(driver, launchPage);
 	LoginPage loginPage = launchPage.launch(FBConstants.TESTURL);
 	
+	try {
+		Thread.sleep(3000);
+	} catch (InterruptedException e) {
+		// TODO Auto-generated catch block
+		e.printStackTrace();
+	}
+	
+	
+	loginPage.takeScreenshot();
 	LandingPage landingPage = loginPage.doLogin(FBConstants.USERID,FBConstants.PASSWORD);
 	landingPage.verifyTitle("Facebook");
+	try {
+		Thread.sleep(3000);
+	} catch (InterruptedException e) {
+		// TODO Auto-generated catch block
+		e.printStackTrace();
+	}
+	landingPage.takeScreenshot();
+	//test.addScreencast(screencastPath);
 	test.log(LogStatus.INFO, "Logged in");
+	
 	
 	}
 	
