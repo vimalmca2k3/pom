@@ -18,7 +18,7 @@ public class BaseTest {
 	public void init(String browser)
 	
 	{
-		//System.setProperty("webdriver.gecko.driver", "C:\\browserDrivers\\gecko\\geckodriver.exe");
+		System.setProperty("webdriver.gecko.driver", "C:\\browserDrivers\\gecko2\\geckodriver.exe");
 		driver = new FirefoxDriver();
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(20,TimeUnit.SECONDS);

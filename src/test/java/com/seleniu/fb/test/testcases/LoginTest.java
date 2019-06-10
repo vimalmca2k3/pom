@@ -32,29 +32,21 @@ public class LoginTest extends BaseTest {
 	PageFactory.initElements(driver, launchPage);
 	LoginPage loginPage = launchPage.launch(FBConstants.TESTURL);
 	
-	try {
-		Thread.sleep(3000);
-	} catch (InterruptedException e) {
-		// TODO Auto-generated catch block
-		e.printStackTrace();
-	}
-	
 	
 	loginPage.takeScreenshot();
 	LandingPage landingPage = loginPage.doLogin(FBConstants.USERID,FBConstants.PASSWORD);
 	landingPage.verifyTitle("Facebook");
-	try {
-		Thread.sleep(3000);
-	} catch (InterruptedException e) {
-		// TODO Auto-generated catch block
-		e.printStackTrace();
-	}
-	landingPage.takeScreenshot();
-	//test.addScreencast(screencastPath);
 	test.log(LogStatus.INFO, "Logged in");
+	landingPage.takeScreenshot();
+	//landingPage.getMenu().logOut();
+	
+	
+	
 	
 	
 	}
+	
+	
 	
 	@AfterTest
 	public void quit()

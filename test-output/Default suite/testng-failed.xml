@@ -5,9 +5,9 @@
     <classes>
       <class name="com.seleniu.fb.test.testcases.LoginTest">
         <methods>
+          <include name="alaunchTest"/>
           <include name="closingReport"/>
           <include name="quit"/>
-          <include name="launchTest"/>
         </methods>
       </class> <!-- com.seleniu.fb.test.testcases.LoginTest -->
     </classes>

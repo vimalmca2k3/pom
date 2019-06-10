@@ -3,8 +3,10 @@
 <suite name="DataDrivenFramework">
   <test thread-count="1" name="POMwithPageFactory">
     <classes>
-      <class name="com.seleniu.fb.test.testcases.LoginTest"/>
-       
+    
+      <!-- - class name="com.seleniu.fb.test.testcases.LoginTest"/> -->
+         <class name="com.seleniu.fb.pages.practice.AllTestNGAnnotation"/>
+           <class name="com.seleniu.fb.pages.practice.AllTestNGAnnotation2"/>
    
     </classes>
   </test> <!-- HardAssertTests -->
