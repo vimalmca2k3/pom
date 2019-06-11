@@ -12,6 +12,8 @@ public class FBConstants {
 	public static final String USERID_XPATH = "//*[@id='email']";
 	public static final String PASSWORD_XPATH = "//*[@id='pass']";
 	public static final String LOGIN_BUTTON = "//input[@value='Log In']";
+	public static final String NAVIGATION_LABEL = "";
+	public static final String SETTINGS_LINK = "";
 	
 
 }
