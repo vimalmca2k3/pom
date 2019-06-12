@@ -5,8 +5,10 @@
     <classes>
     
       <!-- - class name="com.seleniu.fb.test.testcases.LoginTest"/> -->
-         <class name="com.seleniu.fb.pages.practice.AllTestNGAnnotation"/>
-           <class name="com.seleniu.fb.pages.practice.AllTestNGAnnotation2"/>
+      
+      
+         <class name="com.seleniu.fb.test.testcases.LoginTest"/>
+           <class name="com.seleniu.fb.test.testcases.ProfileTest"/>
    
     </classes>
   </test> <!-- HardAssertTests -->

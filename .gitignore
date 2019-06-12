@@ -3,3 +3,6 @@
 *.html
 *.png
 *.class
+/POMReports/
+/test-output/
+/logs/
