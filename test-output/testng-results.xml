@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="7189" started-at="2019-06-10T20:25:56Z" finished-at="2019-06-10T20:26:03Z">
+  <suite name="Default suite" duration-ms="7882" started-at="2019-06-12T17:38:28Z" finished-at="2019-06-12T17:38:36Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="7189" started-at="2019-06-10T20:25:56Z" finished-at="2019-06-10T20:26:03Z">
-      <class name="com.seleniu.fb.test.testcases.LoginTest">
-        <test-method status="PASS" signature="launchTest()[pri:0, instance:com.seleniu.fb.test.testcases.LoginTest@55a1c291]" name="launchTest" duration-ms="6049" started-at="2019-06-10T16:25:56Z" finished-at="2019-06-10T16:26:02Z">
+    <test name="Default test" duration-ms="7882" started-at="2019-06-12T17:38:28Z" finished-at="2019-06-12T17:38:36Z">
+      <class name="com.seleniu.fb.test.testcases.ProfileTest">
+        <test-method status="PASS" signature="profileTest()[pri:0, instance:com.seleniu.fb.test.testcases.ProfileTest@55a1c291]" name="profileTest" duration-ms="6565" started-at="2019-06-12T13:38:28Z" finished-at="2019-06-12T13:38:35Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- launchTest -->
-        <test-method status="PASS" signature="closingReport()[pri:0, instance:com.seleniu.fb.test.testcases.LoginTest@55a1c291]" name="closingReport" is-config="true" duration-ms="231" started-at="2019-06-10T16:26:02Z" finished-at="2019-06-10T16:26:02Z">
+        </test-method> <!-- profileTest -->
+        <test-method status="PASS" signature="closingReport()[pri:0, instance:com.seleniu.fb.test.testcases.ProfileTest@55a1c291]" name="closingReport" is-config="true" duration-ms="250" started-at="2019-06-12T13:38:35Z" finished-at="2019-06-12T13:38:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closingReport -->
-        <test-method status="PASS" signature="quit()[pri:0, instance:com.seleniu.fb.test.testcases.LoginTest@55a1c291]" name="quit" is-config="true" duration-ms="888" started-at="2019-06-10T16:26:02Z" finished-at="2019-06-10T16:26:03Z">
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.seleniu.fb.test.testcases.ProfileTest@55a1c291]" name="quit" is-config="true" duration-ms="1043" started-at="2019-06-12T13:38:35Z" finished-at="2019-06-12T13:38:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->
-      </class> <!-- com.seleniu.fb.test.testcases.LoginTest -->
+      </class> <!-- com.seleniu.fb.test.testcases.ProfileTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

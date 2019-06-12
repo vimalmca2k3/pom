@@ -35,12 +35,13 @@ public class LoginPage extends BasePage{
 		
 		test.log(LogStatus.INFO, "Entering user id and password"+userid +"/" + password );	
 		try {
-		email.sendKeys(FBConstants.USERID);
-		pwd.sendKeys(FBConstants.PASSWORD);
-		pwd.sendKeys(Keys.ENTER);
-		}
+				email.sendKeys(FBConstants.USERID);
+				pwd.sendKeys(FBConstants.PASSWORD);
+				pwd.sendKeys(Keys.ENTER);
+			}
 		catch (Exception ex)
-		{
+		
+			{
 			reportException(ex.getMessage().toString());
 			}
 		

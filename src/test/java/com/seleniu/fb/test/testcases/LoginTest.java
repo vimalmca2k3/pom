@@ -25,7 +25,7 @@ public class LoginTest extends BaseTest {
 	 
 	test = extent.startTest("launchTest");	
 	init("Mozilla");
-	test.log(LogStatus.INFO, "Opening Browser");
+	test.log(LogStatus.INFO, "Opening Browser in launchTest");
 	LaunchPage launchPage = new LaunchPage(driver,test);
 	//launchPage.takeScreenshot();
 	test.log(LogStatus.INFO, "Launching Page");
@@ -39,10 +39,6 @@ public class LoginTest extends BaseTest {
 	test.log(LogStatus.INFO, "Logged in");
 	landingPage.takeScreenshot();
 	//landingPage.getMenu().logOut();
-	
-	
-	
-	
 	
 	}
 	
