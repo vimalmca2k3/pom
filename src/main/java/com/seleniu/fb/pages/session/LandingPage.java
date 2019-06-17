@@ -19,12 +19,16 @@ public class LandingPage extends BasePage{
 		super(driver,test);
 	}
 
-	public ProfilePage gotoProfilePage() {
-<<<<<<< HEAD
+	public ProfilePage gotoProfilePage(){
+
 		// click on profile link
-=======
 		// TODO Auto-generated method stub
->>>>>>> 05f0a38b5805b58ec92331e92b906de3e2e886fd
+
+
+		// click on profile link
+
+		// TODO Auto-generated method stub
+		//
 		ProfilePage profPage = new ProfilePage (driver,test);
 		PageFactory.initElements(driver, profPage);
 		return profPage;

@@ -17,14 +17,9 @@ public class ProfilePage extends BasePage{
 		test.log(LogStatus.INFO, "Inside Profile Page Constructor");
 		
 	}
-
 	public void verifyProfile() {
-		
+	
 		test.log(LogStatus.PASS, "Profile Verified");
-<<<<<<< HEAD
 		//Webdriver code to verify correct profile is opened
-=======
->>>>>>> 05f0a38b5805b58ec92331e92b906de3e2e886fd
-	}
-
+		//Webdriver code to verify correct profile is opened
 }
