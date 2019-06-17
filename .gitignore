@@ -1,11 +1,9 @@
-/target/
-
+/target/*
 *.html
 *.png
 *.xml
 *.class
 /POMReports/
 /test-output/
-
-/logs/
+/logs/*
 
