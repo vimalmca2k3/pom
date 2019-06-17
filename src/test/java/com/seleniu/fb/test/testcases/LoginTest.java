@@ -38,6 +38,7 @@ public class LoginTest extends BaseTest {
 	landingPage.verifyTitle("Facebook");
 	test.log(LogStatus.INFO, "Logged in");
 	landingPage.takeScreenshot();
+<<<<<<< HEAD
 	
 	try {
 		Thread.sleep(10000);
@@ -46,6 +47,9 @@ public class LoginTest extends BaseTest {
 		e.printStackTrace();
 	}
 	landingPage.getMenu().logout();
+=======
+	//landingPage.getMenu().logOut();
+>>>>>>> 05f0a38b5805b58ec92331e92b906de3e2e886fd
 	
 	}
 	

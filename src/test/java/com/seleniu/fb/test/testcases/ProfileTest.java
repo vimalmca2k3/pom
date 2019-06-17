@@ -45,12 +45,17 @@ public class ProfileTest extends BaseTest{
 	@AfterMethod
 	public void closingReport()
 	{
+<<<<<<< HEAD
 		if(extent!=null)
 		{
 			extent.endTest(test);
 			extent.flush();
 		}
 		
+=======
+		extent.endTest(test);
+		extent.flush();
+>>>>>>> 05f0a38b5805b58ec92331e92b906de3e2e886fd
 	}
 
 

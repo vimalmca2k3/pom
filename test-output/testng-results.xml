@@ -2,6 +2,7 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
+<<<<<<< HEAD
   <suite name="Default suite" duration-ms="18565" started-at="2019-06-17T17:08:38Z" finished-at="2019-06-17T17:08:57Z">
     <groups>
     </groups>
@@ -16,10 +17,26 @@
           </reporter-output>
         </test-method> <!-- closingReport -->
         <test-method status="PASS" signature="quit()[pri:0, instance:com.seleniu.fb.test.testcases.LoginTest@5906ebcb]" name="quit" is-config="true" duration-ms="1361" started-at="2019-06-17T13:08:56Z" finished-at="2019-06-17T13:08:57Z">
+=======
+  <suite name="Default suite" duration-ms="7882" started-at="2019-06-12T17:38:28Z" finished-at="2019-06-12T17:38:36Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="7882" started-at="2019-06-12T17:38:28Z" finished-at="2019-06-12T17:38:36Z">
+      <class name="com.seleniu.fb.test.testcases.ProfileTest">
+        <test-method status="PASS" signature="profileTest()[pri:0, instance:com.seleniu.fb.test.testcases.ProfileTest@55a1c291]" name="profileTest" duration-ms="6565" started-at="2019-06-12T13:38:28Z" finished-at="2019-06-12T13:38:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- profileTest -->
+        <test-method status="PASS" signature="closingReport()[pri:0, instance:com.seleniu.fb.test.testcases.ProfileTest@55a1c291]" name="closingReport" is-config="true" duration-ms="250" started-at="2019-06-12T13:38:35Z" finished-at="2019-06-12T13:38:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closingReport -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.seleniu.fb.test.testcases.ProfileTest@55a1c291]" name="quit" is-config="true" duration-ms="1043" started-at="2019-06-12T13:38:35Z" finished-at="2019-06-12T13:38:36Z">
+>>>>>>> 05f0a38b5805b58ec92331e92b906de3e2e886fd
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->
-      </class> <!-- com.seleniu.fb.test.testcases.LoginTest -->
+      </class> <!-- com.seleniu.fb.test.testcases.ProfileTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

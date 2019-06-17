@@ -21,7 +21,10 @@ public class ProfilePage extends BasePage{
 	public void verifyProfile() {
 		
 		test.log(LogStatus.PASS, "Profile Verified");
+<<<<<<< HEAD
 		//Webdriver code to verify correct profile is opened
+=======
+>>>>>>> 05f0a38b5805b58ec92331e92b906de3e2e886fd
 	}
 
 }
