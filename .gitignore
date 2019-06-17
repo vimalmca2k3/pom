@@ -5,7 +5,6 @@
 *.class
 /POMReports/
 /test-output/
-<<<<<<< HEAD
+
 /logs/
-=======
->>>>>>> 05f0a38b5805b58ec92331e92b906de3e2e886fd
+
