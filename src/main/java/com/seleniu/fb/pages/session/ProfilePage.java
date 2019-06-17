@@ -1,6 +1,8 @@
 package com.seleniu.fb.pages.session;
 
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
 
 import com.relevantcodes.extentreports.ExtentTest;
 import com.relevantcodes.extentreports.LogStatus;
@@ -8,7 +10,7 @@ import com.seleniu.fb.pages.base.BasePage;
 
 public class ProfilePage extends BasePage{
 	
-	
+
 	ProfilePage(WebDriver driver, ExtentTest test)
 	
 	{
@@ -20,7 +22,6 @@ public class ProfilePage extends BasePage{
 	public void verifyProfile() {
 	
 		test.log(LogStatus.PASS, "Profile Verified");
-		//Webdriver code to verify correct profile is opened
-		//Webdriver code to verify correct profile is opened
+		
 }
 }

@@ -51,7 +51,7 @@ public class LoginTest extends BaseTest {
 	//landingPage.getMenu().logOut();
 
 
-	//landingPage.getMenu().logOut();
+
 
 
 	
