@@ -38,7 +38,14 @@ public class LoginTest extends BaseTest {
 	landingPage.verifyTitle("Facebook");
 	test.log(LogStatus.INFO, "Logged in");
 	landingPage.takeScreenshot();
-	//landingPage.getMenu().logOut();
+	
+	try {
+		Thread.sleep(10000);
+	} catch (InterruptedException e) {
+		// TODO Auto-generated catch block
+		e.printStackTrace();
+	}
+	landingPage.getMenu().logout();
 	
 	}
 	

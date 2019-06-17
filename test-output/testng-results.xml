@@ -1,39 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="DataDrivenFramework" duration-ms="16439" started-at="2019-06-12T18:37:57Z" finished-at="2019-06-12T18:38:13Z">
+  <suite name="Default suite" duration-ms="18565" started-at="2019-06-17T17:08:38Z" finished-at="2019-06-17T17:08:57Z">
     <groups>
     </groups>
-    <test name="POMwithPageFactory" duration-ms="16439" started-at="2019-06-12T18:37:57Z" finished-at="2019-06-12T18:38:13Z">
+    <test name="Default test" duration-ms="18565" started-at="2019-06-17T17:08:38Z" finished-at="2019-06-17T17:08:57Z">
       <class name="com.seleniu.fb.test.testcases.LoginTest">
-        <test-method status="PASS" signature="launchTest()[pri:0, instance:com.seleniu.fb.test.testcases.LoginTest@2145433b]" name="launchTest" duration-ms="5371" started-at="2019-06-12T14:37:57Z" finished-at="2019-06-12T14:38:02Z">
+        <test-method status="PASS" signature="launchTest()[pri:0, instance:com.seleniu.fb.test.testcases.LoginTest@5906ebcb]" name="launchTest" duration-ms="16876" started-at="2019-06-17T13:08:39Z" finished-at="2019-06-17T13:08:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchTest -->
-        <test-method status="PASS" signature="closingReport()[pri:0, instance:com.seleniu.fb.test.testcases.LoginTest@2145433b]" name="closingReport" is-config="true" duration-ms="273" started-at="2019-06-12T14:38:02Z" finished-at="2019-06-12T14:38:02Z">
+        <test-method status="PASS" signature="closingReport()[pri:0, instance:com.seleniu.fb.test.testcases.LoginTest@5906ebcb]" name="closingReport" is-config="true" duration-ms="295" started-at="2019-06-17T13:08:55Z" finished-at="2019-06-17T13:08:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closingReport -->
-        <test-method status="PASS" signature="quit()[pri:0, instance:com.seleniu.fb.test.testcases.LoginTest@2145433b]" name="quit" is-config="true" duration-ms="2126" started-at="2019-06-12T14:38:10Z" finished-at="2019-06-12T14:38:12Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- quit -->
-        <test-method status="PASS" signature="quit()[pri:0, instance:com.seleniu.fb.test.testcases.ProfileTest@2890c451]" name="quit" is-config="true" duration-ms="1529" started-at="2019-06-12T14:38:12Z" finished-at="2019-06-12T14:38:13Z">
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.seleniu.fb.test.testcases.LoginTest@5906ebcb]" name="quit" is-config="true" duration-ms="1361" started-at="2019-06-17T13:08:56Z" finished-at="2019-06-17T13:08:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->
       </class> <!-- com.seleniu.fb.test.testcases.LoginTest -->
-      <class name="com.seleniu.fb.test.testcases.ProfileTest">
-        <test-method status="PASS" signature="profileTest()[pri:0, instance:com.seleniu.fb.test.testcases.ProfileTest@2890c451]" name="profileTest" duration-ms="7071" started-at="2019-06-12T14:38:02Z" finished-at="2019-06-12T14:38:09Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- profileTest -->
-        <test-method status="PASS" signature="closingReport()[pri:0, instance:com.seleniu.fb.test.testcases.ProfileTest@2890c451]" name="closingReport" is-config="true" duration-ms="44" started-at="2019-06-12T14:38:09Z" finished-at="2019-06-12T14:38:10Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closingReport -->
-      </class> <!-- com.seleniu.fb.test.testcases.ProfileTest -->
-    </test> <!-- POMwithPageFactory -->
-  </suite> <!-- DataDrivenFramework -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
