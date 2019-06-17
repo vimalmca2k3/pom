@@ -23,3 +23,4 @@ public class ProfilePage extends BasePage{
 		//Webdriver code to verify correct profile is opened
 		//Webdriver code to verify correct profile is opened
 }
+}
