@@ -1,12 +1,13 @@
 *.txt
-/target/*
+*/target/*
 target/
 *.html
 *.png
 *.xml
-*.class
+target/classes/com/seleniu/fb/util/
 /POMReports/
 /test-output/
 /logs/*
 /target/classes/com/seleniu/fb/pages/session/LandingPage.class
 target/test-classes/com/seleniu/fb/test/testcases/LoginTest.class
+target/classes/com/seleniu/fb/util/FBConstants.class
