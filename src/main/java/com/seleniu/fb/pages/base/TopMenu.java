@@ -37,7 +37,8 @@ public class TopMenu {
 
  public void logout()
  
- {
+   {
+
 	 accountSettings.click();
 	 logout.click();
 	 
@@ -57,7 +58,9 @@ public class TopMenu {
 	return settings;
 }
 */
-public void search(){
+public void search()
+
+{
 	
 }
 

@@ -10,7 +10,12 @@ import org.openqa.selenium.remote.DesiredCapabilities;
 
 import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.ExtentTest;
+import com.relevantcodes.extentreports.LogStatus;
+import com.seleniu.fb.pages.session.LandingPage;
+import com.seleniu.fb.pages.session.LaunchPage;
+import com.seleniu.fb.pages.session.LoginPage;
 import com.seleniu.fb.util.ExtentManager;
+import com.seleniu.fb.util.FBConstants;
 
 public class BaseTest {
 
@@ -39,5 +44,21 @@ public class BaseTest {
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(20,TimeUnit.SECONDS);
 		
+	}
+	
+	public LandingPage loginFunctionality()
+	{
+	
+	
+	
+		init("Mozilla");
+		test.log(LogStatus.INFO, "Opening Browser in ProfileTest");
+		LaunchPage launchPage = new LaunchPage(driver,test);
+		
+		LoginPage lPage = launchPage.launch(FBConstants.TESTURL);
+		
+		LandingPage landingPage = lPage.doLogin(FBConstants.USERID, FBConstants.PASSWORD);
+		return landingPage;
+	
 	}
 }
