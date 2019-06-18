@@ -9,12 +9,13 @@ import org.openqa.selenium.support.PageFactory;
 import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.ExtentTest;
 import com.seleniu.fb.pages.base.BasePage;
+import com.seleniu.fb.util.FBConstants;
 
 
 public class LandingPage extends BasePage{
 
 	
-	@FindBy(xpath="//div[@id='userNav']/ul/li/a")
+	@FindBy(xpath= FBConstants.PROF_XPATH)
 	WebElement profileLink;
 	
 	

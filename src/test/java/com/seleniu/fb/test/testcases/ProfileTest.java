@@ -31,6 +31,8 @@ public class ProfileTest extends BaseTest{
 		ProfilePage profPage = landingPage.gotoProfilePage();
 		
 		profPage.verifyProfile();
+		profPage.getMenu().logout();
+		profPage.uploadProfilePic();
 			
 		
 		

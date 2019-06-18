@@ -15,9 +15,11 @@ public class TopMenu {
 	
 	@FindBy(xpath=FBConstants.NAVIGATION_LABEL)
 	public WebElement navigationLabel;
-	@FindBy(xpath=FBConstants.SETTINGS_LINK)
+	@FindBy(xpath=FBConstants.ACCOUNT_SETTINGS_XPATH)
+	public WebElement accountSettings;
+	@FindBy(xpath=FBConstants.LOGOUT_XPATH)
+	public WebElement logout;
 	
-	public WebElement settings;
 	ExtentTest test;
 	
 	
@@ -33,7 +35,12 @@ public class TopMenu {
 		
 	}
 
- public void logout(){
+ public void logout()
+ 
+ {
+	 accountSettings.click();
+	 logout.click();
+	 
 		
 	}
 

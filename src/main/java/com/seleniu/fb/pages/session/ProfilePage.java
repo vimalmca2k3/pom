@@ -20,8 +20,16 @@ public class ProfilePage extends BasePage{
 		
 	}
 	public void verifyProfile() {
-	
+		test.log(LogStatus.INFO,"PageTitle is -->"+ driver.getTitle());
 		test.log(LogStatus.PASS, "Profile Verified");
 		
-}
+	}
+	
+	public void uploadProfilePic()
+	
+	{
+		test.log(LogStatus.INFO,"Uploading ProfilePic");
+		
+	}
+	
 }
