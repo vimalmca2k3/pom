@@ -8,7 +8,8 @@
       
       
          <class name="com.seleniu.fb.test.testcases.LoginTest"/>
-           <class name="com.seleniu.fb.test.testcases.ProfileTest"/>
+         <class name="com.seleniu.fb.test.testcases.ProfileTest"/>
+   		 <class name="com.seleniu.fb.test.testcases.TopMenuTest"/>
    
     </classes>
   </test> <!-- HardAssertTests -->
