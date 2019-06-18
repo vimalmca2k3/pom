@@ -52,7 +52,8 @@ public class BaseTest {
 	
 	
 		init("Mozilla");
-		test.log(LogStatus.INFO, "Opening Browser in ProfileTest");
+		System.out.println("FF initialized");
+	//	test.log(LogStatus.INFO, "Opening Browser in ProfileTest");
 		LaunchPage launchPage = new LaunchPage(driver,test);
 		
 		LoginPage lPage = launchPage.launch(FBConstants.TESTURL);
@@ -61,4 +62,17 @@ public class BaseTest {
 		return landingPage;
 	
 	}
+	
+	public void customWait(int time)
+	
+	{
+		try {
+			Thread.sleep(time);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+	
+
 }

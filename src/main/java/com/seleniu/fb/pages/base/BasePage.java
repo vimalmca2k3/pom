@@ -51,7 +51,7 @@ public class BasePage {
 		
 	}
 	
-	public TopMenu getMenu(){
+	public TopMenu getTopMenu(){
 		return topMenu;
 	}
 	

@@ -46,7 +46,7 @@ public class LoginTest extends BaseTest {
 		// TODO Auto-generated catch block
 		e.printStackTrace();
 	}
-	landingPage.getMenu().logout();
+	landingPage.getTopMenu().logout();
 
 	//landingPage.getMenu().logOut();
 

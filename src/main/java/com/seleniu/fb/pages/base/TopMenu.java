@@ -19,50 +19,68 @@ public class TopMenu {
 	public WebElement accountSettings;
 	@FindBy(xpath=FBConstants.LOGOUT_XPATH)
 	public WebElement logout;
+	@FindBy (xpath=FBConstants.HOME_XPATH)
+	public WebElement home;
+	@FindBy(xpath=FBConstants.FIND_FRIEND_XPATH)
+	public WebElement findFriend;
 	
-	ExtentTest test;
+	public ExtentTest test;
 	
 	
-	WebDriver driver;
+	public WebDriver driver;
 	
-	
-	TopMenu(WebDriver driver,ExtentTest test)
+ TopMenu(WebDriver driver,ExtentTest test)
 	{
-		
-		this.driver = driver;
-		this.test = test;
-		
-		
-	}
+			
+			this.driver = driver;
+			this.test = test;
+			
+			
+		}
 
  public void logout()
- 
-   {
-
-	 accountSettings.click();
-	 logout.click();
-	 
+		 
+		   {
 		
-	}
-
-    /*
-    public GeneralSettingsPage gotoSettings(){
-	test.log(LogStatus.INFO, "Going to settings");
-	//navigationLabel.click();
-	JavascriptExecutor js = (JavascriptExecutor)driver;
-	js.executeScript("document.getElementById('userNavigationLabel').click()");
-	settings.click();
-	test.log(LogStatus.INFO, "Settings page opened");
-	GeneralSettingsPage settings =new GeneralSettingsPage(driver,test);
-	PageFactory.initElements(driver, settings);
-	return settings;
-}
-*/
+			 accountSettings.click();
+			 logout.click();
+			 
+				
+			}
+		
+		    /*
+		    public GeneralSettingsPage gotoSettings(){
+			test.log(LogStatus.INFO, "Going to settings");
+			//navigationLabel.click();
+			JavascriptExecutor js = (JavascriptExecutor)driver;
+			js.executeScript("document.getElementById('userNavigationLabel').click()");
+			settings.click();
+			test.log(LogStatus.INFO, "Settings page opened");
+			GeneralSettingsPage settings =new GeneralSettingsPage(driver,test);
+			PageFactory.initElements(driver, settings);
+			return settings;
+		}
+		*/
 public void search()
 
-{
-	
-}
-
+		{
+			
+			
+		}
+ public void gotoHome()
+ 
+		 {
+			// test.log(LogStatus.INFO, "Before Home click" + driver.getTitle());
+			 home.click();
+			// test.log(LogStatus.INFO, "After Home click" + driver.getTitle());
+		 }
+ 
+ public void gotoFindFriend()
+ 
+		 {
+	 		  // test.log(LogStatus.INFO, "Before FindFriend click" + driver.getTitle());
+	 			findFriend.click();
+	 		  // test.log(LogStatus.INFO, "After FindFriend click" + driver.getTitle());	
+		 }
 
 }

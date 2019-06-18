@@ -33,7 +33,7 @@ public class LoginPage extends BasePage{
 	public LandingPage doLogin(String userid, String password) 
 	{
 		
-		test.log(LogStatus.INFO, "Entering user id and password"+userid +"/" + password );	
+		//test.log(LogStatus.INFO, "Entering user id and password"+userid +"/" + password );	
 		try {
 		email.sendKeys(FBConstants.USERID);
 		pwd.sendKeys(FBConstants.PASSWORD);
@@ -44,11 +44,11 @@ public class LoginPage extends BasePage{
 			reportException(ex.getMessage().toString());
 			}
 		
-		test.log(LogStatus.INFO, "logged in");
+	//	test.log(LogStatus.INFO, "logged in");
 		
 		LandingPage landingPage = new LandingPage(driver,test);
 		PageFactory.initElements(driver, landingPage);
-		test.log(LogStatus.INFO, "Landing page opened");
+	//	test.log(LogStatus.INFO, "Landing page opened");
 	
 		return landingPage;
 		

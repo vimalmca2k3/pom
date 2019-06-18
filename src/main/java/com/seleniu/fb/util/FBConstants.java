@@ -16,6 +16,8 @@ public class FBConstants {
 	public static final String ACCOUNT_SETTINGS_XPATH = "//*[@id='userNavigationLabel']";
 	public static final String PROF_XPATH = "//div[@id='userNav']/ul/li/a";
 	public static final String LOGOUT_XPATH = "//span[contains(text(),'Log Out')]";
+	public static final String HOME_XPATH = "//a[contains(text(),'Home')]";
+	public static final String FIND_FRIEND_XPATH = "//*[@id='findFriendsNav']";
 	
 
 }
